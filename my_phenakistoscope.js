@@ -20,9 +20,9 @@ function setup_layers(pScope){
   pizzaLayer.mode(RING)
   pizzaLayer.set_boundary( 0, 450 );
 
-  // var beerLayer = new PLayer(beer);
-  // beerLayer.mode( RING )
-  // beerLayer.set_boundary( 640, 980 );
+  var beerLayer = new PLayer(beer);
+  beerLayer.mode( RING )
+  beerLayer.set_boundary( 640, 980 );
   
 }
 
