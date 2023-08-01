@@ -1,7 +1,7 @@
 const SLICE_COUNT = 10;
 
 function setup_pScope(pScope){
-  pScope.output_mode(ANIMATED_FRAME); // STATIC_DISK, STATIC_FRAME, ANIMATED_DISK
+  pScope.output_mode(ANIMATED_DISK); // STATIC_DISK, STATIC_FRAME, ANIMATED_DISK
   pScope.scale_for_screen(true);
   pScope.draw_layer_boundaries(false);
   pScope.set_direction(CCW);
